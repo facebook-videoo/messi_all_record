@@ -3,18 +3,20 @@ body{
     padding: 0px;
     box-sizing: border-box;
     position: relative;
+    width: 100%;
 }
 #center{
-width: 100℅;
-position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  position: absolute;
+ left: 50%;
+ -webkit-transform: translateX(-50%);
+ transform: translateX(-50%)
+  box-sizing: border-box;
+  max-width: 100% !important;
+  width: 99%;
+
 }
 #form_wrapper {
-    width: 80%;
-margin: auto;
+    width: 100%;
 }
 #form_wrapper h1 {
     font-size: 40px;
