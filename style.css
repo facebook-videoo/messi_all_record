@@ -6,13 +6,13 @@ body{
     width: 100%;
 }
 #center{
-  width: 99%;
+  padding-top: 23%;
+  width: 80% !important;
   margin: auto;
-  padding-top: 20%;
 
 }
 #form_wrapper {
-    width: 85%;
+    width: 100%;
 }
 #form_wrapper h1 {
     font-size: 40px;
